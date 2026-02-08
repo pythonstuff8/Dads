@@ -1,0 +1,13 @@
+{
+  "name": "duplicate-photo-finder",
+  "version": "1.0.0",
+  "description": "Detects and moves duplicate images using perceptual hashing",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "dependencies": {
+    "electron": "^33.0.0"
+  }
+}
