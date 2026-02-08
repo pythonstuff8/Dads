@@ -8,13 +8,13 @@ let pythonProcess = null;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 900,
-    height: 700,
-    minWidth: 750,
-    minHeight: 550,
+    width: 860,
+    height: 740,
+    minWidth: 700,
+    minHeight: 500,
     frame: false,
     transparent: false,
-    backgroundColor: "#0a0a0f",
+    backgroundColor: "#0c0c14",
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,
